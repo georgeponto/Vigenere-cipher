@@ -66,3 +66,17 @@ function decryptMessage() {
     const result = solved.join("");
     document.getElementById("output").textContent = result;
 }
+
+function copyOutput() {
+    const output = document.getElementById("output").textContent;
+
+    navigator.clipboard.writeText(output);
+
+    alert("Copied to clipboard!");
+}
+
+function resetFields() {
+    document.getElementById("key").value = "";
+    document.getElementById("message").value = "";
+    document.getElementById("output").textContent = "";
+}
