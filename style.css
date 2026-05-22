@@ -69,9 +69,9 @@ button:hover {
   word-wrap: break-word;
 }
 .github-link {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .github-icon {
