@@ -70,17 +70,14 @@ button:hover {
 }
 
 .github-link {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: block;
-  z-index: 10;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .github-icon {
-  width: 50px;
-  height: 50px;
-  display: block;
+  width: 40px;
+  height: 40px;
   transition: transform 0.2s ease;
 }
 
@@ -89,12 +86,6 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-  .github-link {
-    position: static;
-    width: fit-content;
-    margin: 20px auto 0 auto;
-  }
-
   .github-icon {
     width: 30px;
     height: 30px;
