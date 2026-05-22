@@ -68,10 +68,11 @@ button:hover {
   min-height: 40px;
   word-wrap: break-word;
 }
+
 .github-link {
   position: fixed;
-  justify-content: center;
-  margin-top: 20px;
+  bottom: 20px;
+  right: 20px;
 }
 
 .github-icon {
@@ -86,11 +87,10 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-
   .github-link {
     position: static;
     display: block;
-    justify-content: center;
+    width: fit-content;
     margin: 20px auto 0 auto;
   }
 
@@ -98,5 +98,4 @@ button:hover {
     width: 30px;
     height: 30px;
   }
-
 }
